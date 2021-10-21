@@ -1,0 +1,25 @@
+{
+    "name": "jermainedavy/json-validator",
+    "type": "library",
+    "description": "A library to validate a json string against a model defined as a php class.",
+    "keywords": [
+        "json",
+        "model",
+        "PHP class"
+    ],
+    "homepage": "https://github.com/JermaineDavy/json-validator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jermaine Davy",
+            "email": "39907947+JermaineDavy@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JermaineDavy\\JsonValidator\\": "src/",
+            "JermaineDavy\\JsonValidator\\Tests\\": "tests/"
+        }
+    },
+    "require": {}
+}
